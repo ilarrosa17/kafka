@@ -6,7 +6,7 @@ namespace: kafka-infra-dev
 resources:
   - ../../base
 
-namePrefix: {{PREFIX}}
+namePrefix: dev-
 
 patches:
   # Reduce Kafka node pool replicas for dev environment and fix cluster label
