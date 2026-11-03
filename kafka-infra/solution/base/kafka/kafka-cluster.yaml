@@ -29,7 +29,7 @@ metadata:
     app.kubernetes.io/part-of: kafka-infra
   annotations:
     strimzi.io/kraft: enabled
-    strimzi.io/node-pools: enabled
+    strimzi.io/node-pool: enabled
 spec:
   kafka:
     version: 4.2.0
