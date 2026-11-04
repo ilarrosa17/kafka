@@ -6,7 +6,7 @@ namespace: kafka-infra
 resources:
   - ../../base
 
-patches:
+#patches:
   # Use persistent storage in production
 #  - patch: |-
 #      - op: replace
